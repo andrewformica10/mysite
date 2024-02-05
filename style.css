@@ -1,0 +1,62 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    float: left;
+    width: 25%;
+}
+
+nav {
+    margin: 5em 3em;
+    width: 70%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+main {
+    clear: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    padding: 0 1em;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li a {
+    display: block;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
