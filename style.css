@@ -1,37 +1,46 @@
 img {
-    max-width: 100%;
-    display: block;
+    max-width: 70%;
+    display: inline-block;
 }
 
 header {
     float: left;
-    width: 25%;
+    width: 100%;
 }
 
 nav {
-    margin: 5em 3em;
+    float: right;
     width: 70%;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
+    padding: 0;
     text-align: right;
 }
 
 nav li {
     display: inline-block;
+    text-align: right;
 }
 
 nav li a {
-    display: block;
-    text-align: center;
+    display: inline-block;
+    text-align: right;
     padding: 0.5em 1em;
     text-decoration: none;
 }
 
-main {
-    clear: left;
+aside {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+content {
+    float: right;
+    width: 70%;
 }
 
 h1 {
@@ -40,8 +49,11 @@ h1 {
 
 footer {
     font-size: 0.75em;
+    float: left;
     text-align: center;
     padding: 0 1em;
+    width: 100%;
+    bottom: 10px;
 }
 
 footer ul {
